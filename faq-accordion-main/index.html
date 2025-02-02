@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Accordion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-decoration"></div>
+    <div class="background-lines"></div>
+    <div class="container">
+        <div class="faq-card">
+            <div class="faq-header">
+                <div class="star-icon">
+                    <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M37.5259 22.1903C37.7273 22.2976 37.9025 22.4481 38.0379 22.6296C38.1733 22.8112 38.2649 23.0192 38.3058 23.2394C38.3467 23.4597 38.3357 23.6861 38.2737 23.9011C38.2116 24.1161 38.1001 24.3142 37.9478 24.4808L32.2638 30.6088L33.4742 38.5515C33.5223 38.7761 33.5164 39.0087 33.457 39.2308C33.3977 39.4529 33.2866 39.6583 33.1326 39.8323C32.9786 40.0062 32.7859 40.1437 32.5696 40.2339C32.3533 40.3241 32.1192 40.3645 31.8858 40.3519L24.1298 39.8323L17.5402 43.5105C17.3385 43.6166 17.1155 43.6745 16.8893 43.6801C16.663 43.6857 16.4375 43.6389 16.2312 43.5429C16.0248 43.447 15.8432 43.3045 15.7001 43.1266C15.557 42.9486 15.4564 42.7404 15.4062 42.5181L13.6646 34.6714L6.72698 30.3788C6.53426 30.2593 6.37073 30.0965 6.24801 29.9027C6.12529 29.709 6.04645 29.4896 6.01728 29.2613C5.9881 29.033 6.00931 28.8013 6.07937 28.5831C6.14944 28.3649 6.26657 28.1659 6.42226 28.0021L11.4302 21.3011L10.1054 13.3695C10.0553 13.1454 10.0592 12.9131 10.1168 12.6909C10.1744 12.4688 10.2839 12.263 10.4365 12.0882C10.5892 11.9135 10.7807 11.7748 10.9962 11.6832C11.2116 11.5916 11.4451 11.5496 11.6786 11.5605L19.4402 12.0013L26.0522 8.28683C26.2525 8.17879 26.4749 8.11875 26.7009 8.11074C26.927 8.10274 27.1527 8.14697 27.3596 8.23982C27.5665 8.33267 27.7491 8.47255 27.8938 8.64816C28.0385 8.82376 28.1412 9.03008 28.1938 9.25148L29.9802 17.0869L36.9402 21.3347C37.1405 21.4507 37.3131 21.6103 37.4438 21.8011L37.5259 22.1903Z" fill="#AD28EB"/>
+                    </svg>
+                </div>
+                <h1>FAQs</h1>
+            </div>
+            
+            <div class="faq-item active">
+                <div class="faq-question">
+                    <h2>What is Frontend Mentor, and how will it help me?</h2>
+                    <button class="toggle-btn">
+                        <svg class="minus" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15.5" r="15" fill="#AD28EB"/>
+                            <path d="M21 15.5H9" stroke="white" stroke-width="2"/>
+                        </svg>
+                        <svg class="plus" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15.5" r="15" fill="#AD28EB"/>
+                            <path d="M15 9.5V21.5M21 15.5H9" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-answer">
+                    <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h2>Is Frontend Mentor free?</h2>
+                    <button class="toggle-btn">
+                        <svg class="minus" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15.5" r="15" fill="#AD28EB"/>
+                            <path d="M21 15.5H9" stroke="white" stroke-width="2"/>
+                        </svg>
+                        <svg class="plus" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15.5" r="15" fill="#AD28EB"/>
+                            <path d="M15 9.5V21.5M21 15.5H9" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a wide range of projects suitable for all skill levels.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h2>Can I use Frontend Mentor projects in my portfolio?</h2>
+                    <button class="toggle-btn">
+                        <svg class="minus" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15.5" r="15" fill="#AD28EB"/>
+                            <path d="M21 15.5H9" stroke="white" stroke-width="2"/>
+                        </svg>
+                        <svg class="plus" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15.5" r="15" fill="#AD28EB"/>
+                            <path d="M15 9.5V21.5M21 15.5H9" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! The projects are perfect for building your portfolio and showing off your skills to potential employers.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h2>How can I get help if I'm stuck on a challenge?</h2>
+                    <button class="toggle-btn">
+                        <svg class="minus" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15.5" r="15" fill="#AD28EB"/>
+                            <path d="M21 15.5H9" stroke="white" stroke-width="2"/>
+                        </svg>
+                        <svg class="plus" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15.5" r="15" fill="#AD28EB"/>
+                            <path d="M15 9.5V21.5M21 15.5H9" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-answer">
+                    <p>The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
